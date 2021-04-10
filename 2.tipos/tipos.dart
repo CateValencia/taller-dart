@@ -19,4 +19,12 @@ void main() {
   var texto3 = 'las comillas simples generan inconvenientes en algunos lenguajes como el ingles por ser usadas en el mismo';
   var texto4 = "las comillas simples funcionan bien para cadenas literales.";
   
+  // expresiones
+
+  var texto5 = " aqui se usa el simbolo pesos para usar expresiones ${4 + 8}";
+
+  //concatenacion
+
+  var texto6 = "valor1" + "Valor2";
+  var texto7 = "valor1" "valor2";
 }
