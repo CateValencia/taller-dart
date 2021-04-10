@@ -13,4 +13,10 @@ void main() {
   }
 
   //print(edad);
+  
+  var texto1 = 'Las comillas simples funcionan bien para cadenas literales.';
+  var texto2 = "Las comillas dobles funcionan tambien";
+  var texto3 = 'las comillas simples generan inconvenientes en algunos lenguajes como el ingles por ser usadas en el mismo';
+  var texto4 = "las comillas simples funcionan bien para cadenas literales.";
+  
 }
