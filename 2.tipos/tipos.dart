@@ -69,4 +69,23 @@ void main() {
 // lista nula
   var lista4;
 
+// sets=  coleccion unica de valores y se crean con corchetes
+
+  var set1 = {'mazda', 'chevrolet', 'toyota', 'kia'};
+  set1.add("lamborgini");
+  set1.add("toyota");
+  set1.add("chevrolet");
+  set1.add("Nuevo");
+
+// coleccion  o maps
+
+  var translation = {
+    'red': 'rojo',
+    'black': 'negro',
+    'white': 'blanco',
+    'yellow': 'amarillo',
+  };
+
+  translation['green'] = "verde";
+
 }
