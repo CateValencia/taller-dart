@@ -26,5 +26,15 @@ void main() {
   //concatenacion
 
   var texto6 = "valor1" + "Valor2";
+  print(texto6);
+
   var texto7 = "valor1" "valor2";
+  print(texto7);
+
+   //interpolacion
+
+  var texto8 = "texto a interpolar";
+  var numero1 = 50;
+  var texto9 = "se interpola \'$texto8\' con el valor de la variable numero 1 = $numero1";
+  print(texto9);
 }
