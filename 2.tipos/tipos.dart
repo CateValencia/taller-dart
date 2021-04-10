@@ -31,10 +31,15 @@ void main() {
   var texto7 = "valor1" "valor2";
   print(texto7);
 
-   //interpolacion
+  //interpolacion
 
   var texto8 = "texto a interpolar";
   var numero1 = 50;
   var texto9 = "se interpola \'$texto8\' con el valor de la variable numero 1 = $numero1";
   print(texto9);
+
+  // multi linea
+  var texto10 = "It \n s easy to escape the string delimiter.";
+  print(texto10);
+
 }
