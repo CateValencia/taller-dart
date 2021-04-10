@@ -42,4 +42,8 @@ void main() {
   var texto10 = "It \n s easy to escape the string delimiter.";
   print(texto10);
 
+  //booleans
+  var texto11 = '';
+  if (texto11.isEmpty) {}
+
 }
