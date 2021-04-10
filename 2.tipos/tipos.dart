@@ -46,4 +46,27 @@ void main() {
   var texto11 = '';
   if (texto11.isEmpty) {}
 
+  // listas
+
+  var lista1 = ["mazda", "chevrolet", "kia", 10];
+
+  List<String> lista2 = ["mazda", "chevrolet", "kia"];
+
+  print(lista1.reversed);
+  print(lista1.first);
+  print(lista1.last);
+  print(lista2);  
+
+  lista1.add("toyota");
+  lista1.clear();
+  print(lista1);
+ 
+// spread
+// usado para unir 2 listas y se usan 3 puntos suspensivos.
+  var lista3 = ["renault", ...lista1, ...lista2];
+  print(lista3);
+
+// lista nula
+  var lista4;
+
 }
