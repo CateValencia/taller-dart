@@ -9,9 +9,10 @@
  }
 
  class Empleado extends Persona{
-   String? puesto;
+   String puesto;
       
    Empleado(this.puesto) : super(nombre: "juan", apellido: "valencia", edad: 28);
+   Empleado.formJson(this.puesto);
  }
 
 class Vehiculo{
@@ -26,6 +27,6 @@ class Vehiculo{
   var persona = Persona(nombre: "caterine", apellido: "valencia", edad: 55); 
   print(persona);
    
-  var empleado = Empleado("cajero"); 
-  print(empleado.obtenerNombre()); 
+  var empleado = Empleado.formJson("cajero"); 
+  print(empleado); 
  }
